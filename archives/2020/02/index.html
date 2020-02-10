@@ -346,120 +346,18 @@
     
     
     <article class="index-post">
-        <a class="abstract-title" href="/2019/06/04/实习面试失败经历/">
+        <a class="abstract-title" href="/2020/02/10/Docker小试/">
             
-                <span>实习面试失败经历</span>
+                <span>Docker小试</span>
         </a>
         <div class="abstract-content">
-            2019实习面试失败一览本来就预料到实习不好找，但没想到这么不好找，在此记录下失败的几次面试，成功还在未来~
-4月中旬华为面试后，我感觉良好，就一直刚在华为上，没有过多投其他公司。最终全是大厂，面试难度真的感受到了，很惨。最好的二面后就凉了，最差的笔试关都没过，甚是悲惨。
-华为是自认为面试比较好的一个，技术面和综面都过了，一直等待消息，差不多等了1个月，最准预料到无果，这时候慌了，想想自己还没有offer，就又开始了投递，也就是现在的状况。先说说之前几次的失败吧，由于好久了，细节大多不记得了，有些问的问题因为各种事也没有很好地记录下来。
-华为笔试第一次很惨，但给了面试机会，面试基本ok，...
+            由于本人比较懒，博客好久没更新了，反观上一条博客，当时是真的惨呀，不过功夫不负有心人，暑期实习拿到了金山WPS的offer，最终在秋招去了互联网大厂。
+一、Docker基本命令构建镜像：docker build -t &lt;镜像&gt; .查看镜像：docker images / docker image ls删除镜像: docker rmi &lt;镜像ID&gt;创建容器：docker run -itd -p &lt;映射端口&gt; –link &lt;容器连接&gt; &lt;镜像&gt; bashdocker run -itd -p 8080:8080 --link 9fjk...
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
             <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/06/04</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/06/04/滴滴面试惨案/">
-            
-                <span>滴滴面试惨案</span>
-        </a>
-        <div class="abstract-content">
-            滴滴面试惨案今天是悲惨的一天，精心准备了面试，结果在面试官前输的一败涂地。
-首先不得不吐槽校园网，大创的校园网差的要命，面试官从面试软件离开加了我微信，又换了电话面试。
-第一题先说面试吧，一上来问了比较基础的问题，考察JS异步，结果我的回答我自己都觉得蠢，那么简单的问题居然能够想错。不过想起来后纠正了，反正印象不太好。123456for(var i=0;i&lt;5;i++)&#123;    setTimeout(()=&gt;&#123;        console.log(i);    &#125;,i*1000)&#125;//说出以上代码的执行结果
-看到这个我知道这个考察JS...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/06/04</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/06/04/js函数节流与防抖/">
-            
-                <span>js函数节流与防抖</span>
-        </a>
-        <div class="abstract-content">
-            JS函数节流与防抖节流在浏览器resize。scrool等高频率事件，可通过函数节流进行性能优化节流是保证间隔时间内函数只执行一次
-代码实现1234567891011121314151617// 节流function throttle(fn,wait)&#123;    let timeout;    return function()&#123;        let that=this;        let args=arguments;        if(!timeout)&#123;            timeout=setTimeout(()=&gt;&#123;   ...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/06/04</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/05/25/微信小程序canvas总结/">
-            
-                <span>微信小程序canvas总结</span>
-        </a>
-        <div class="abstract-content">
-            微信小程序开发经验总结1.canvas中绘制buffer图片的问题有时候需要动态生成微信小程序码并携带参数，这时候就需要了解微信小程序的API，请求后会给你一张buffer图片；经检验，wx.wx.arrayBufferToBase64此接口失效，得不到数据，几十可以转换成base64图片，模拟器可以绘制，真机依然失效。我经过百度和尝试，有以下解决方案：1.服务端传回base64格式图片，然后前端以这样的方式去掉空格：showImgData = showImgData.replace(/\ +/g, “”); //去掉空格方法showImgData = showImgData.repla...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/05/25</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2019/05/25/hello-world/">
-            
-                <span>Hello World</span>
-        </a>
-        <div class="abstract-content">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new "My New Post"
-More info: Writing
-Run server1$ hexo server
-More...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2019/05/25</span>
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/02/10</span>
             </div>
             <!-- tags  -->
             
